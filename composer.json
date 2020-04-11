@@ -1,0 +1,33 @@
+{
+  "name" : "vaum/ea-tracker-yii2-ext",
+
+  "type" : "yii2-extension",
+  "description" : "Model attribute tracker extension",
+  "keywords" : ["yii2", "entity", "model", "attributes", "tracker"],
+  "license" : "BSD-3-Clause",
+  "support" : {
+    "soucer" : "https://github.com/vaum/ea-tracker-yii2-ext"
+  },
+  "authors" : [
+    {
+      "name" : "Anton Dmytrenko",
+      "email": "gloowrum@yahoo.com"
+    }
+  ],
+
+  "minimum-stability": "stable",
+  "require" : {
+    "php": ">=7.2.0",
+    "yiisoft/yii2" : "~2.0.30"
+  },
+
+  "require-dev" : {
+
+  },
+
+  "autoload": {
+    "psr-4": {
+      "vaum\\ea-tracker-yii2-ext\\": ""
+    }
+  }
+}
